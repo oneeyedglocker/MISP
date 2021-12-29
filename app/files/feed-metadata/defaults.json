@@ -1,4 +1,24 @@
 [
+   {
+    "Feed": {
+      "name": "SP Autoblock Feed",
+      "provider": "SP Cyber",
+      "url": "http://spcs01/autoblock.txt",
+      "rules": "{\"tags\":{\"OR\":[],\"NOT\":[]},\"orgs\":{\"OR\":[],\"NOT\":[]}}",
+      "enabled": true,
+      "distribution": "3",
+      "default": true,
+      "source_format": "freetext",
+      "fixed_event": false,
+      "delta_merge": false,
+      "publish": false,
+      "override_ids": false,
+      "settings": "{\"csv\":{\"value\":\"\",\"delimiter\":\"\"},\"common\":{\"excluderegex\":\"\"}}",
+      "input_source": "network",
+      "delete_local_file": false,
+      "lookup_visible": false
+    }
+  },
   {
     "Feed": {
       "name": "CIRCL OSINT Feed",
